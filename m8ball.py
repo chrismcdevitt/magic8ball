@@ -1,4 +1,4 @@
-
+#
 # magic 8 ball program for CSI-106
 # written by Michael Toth (and everyone else in the class!)
 
