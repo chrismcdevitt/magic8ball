@@ -29,7 +29,6 @@ def m8ballmt():
 
 phrases=[m8ballmt]
 
-
 import random
 sel=random.randint(0,len(phrases)-1)
 
