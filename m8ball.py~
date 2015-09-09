@@ -5,17 +5,13 @@
 # add your function with your initials behind the name m8ball. For instance,
 # my name is Michael Toth, my function is m8ballmt()
 
-# Mediapath should be set here for your machine
-mediaPath = "/media/michael/760444370443F91F/"
-setMediaPath(mediaPath)
-
 # FUNCTIONS
 # ADD YOUR FUNCTION HERE
 # YOU WILL NEED TO CHANGE YOUR PATH FOR THE PICTURE FILE TO USE THE
 # SAME ONE AS IN m8ballmt()
 
 def m8ballmt():
-  f="magic-8-ball-6.jpg"
+  f="/media/michael/760444370443F91F/magic-8-ball-6.jpg"
   p=makePicture(f)
   s=makeStyle(sansSerif,bold,18)
   addTextWithStyle(p,120,130,"NO",s,white)
