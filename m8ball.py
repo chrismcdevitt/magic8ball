@@ -20,6 +20,13 @@ def m8ballmt():
   s=makeStyle(sansSerif,bold,18)
   addTextWithStyle(p,120,130,"NO",s,white)
   repaint(p)
+
+def m8ballmt2():
+  f="magic-8-ball-6.jpg"
+  p=makePicture(f)
+  s=makeStyle(sansSerif,bold,18)
+  addTextWithStyle(p,120,130,"YES",s,white)
+  repaint(p)
   
 def m8ballmj():
   f="magic-8-ball-6.jpg"
@@ -36,7 +43,7 @@ def m8ballmj():
 # For instance, if your function name is m8ballsw, [m8ballmt] should change
 # to [m8ballmt, m8ballsw]
 
-phrases=[m8ballmt, m8ballmj]
+phrases=[m8ballmt, m8ballmt2, m8ballmj]
 
 import random
 sel=random.randint(0,len(phrases)-1)
