@@ -25,7 +25,7 @@ def m8ballkm():
   p=makePicture(f) 
   s=makeStyle(sansSerif,bold,18) 
   addTextWithStyle(p,115,100,"Yes",s,white) 
-  addTextWithStyle(p,85,130,"Definately",s,white) 
+  addTextWithStyle(p,85,130,"Definitely",s,white) 
   repaint(p)
 
 # END OF FUNCTIONS
