@@ -14,6 +14,16 @@ setMediaPath(mediaPath)
 # YOU WILL NEED TO CHANGE YOUR PATH FOR THE PICTURE FILE TO USE THE
 # SAME ONE AS IN m8ballmt()
 
+def m8ballbk():
+  f="magic-8-ball-6.jpg"
+  p=makePicture(f)
+  s=makeStyle(sansSerif,bold,18)
+  addTextWithStyle(p,75,75,"Without",s,white)
+  addTextWithStyle(p,75,100,"a doubt",s,white)
+  repaint(p)
+  
+# I NEED TO CHANGE THE X AND Y VALUES. I WAS USING A DIFFERENT IMAGE SOMEHOW
+
 def m8ballmt():
   f="magic-8-ball-6.jpg"
   p=makePicture(f)
@@ -43,7 +53,7 @@ def m8ballmj():
 # For instance, if your function name is m8ballsw, [m8ballmt] should change
 # to [m8ballmt, m8ballsw]
 
-phrases=[m8ballmt, m8ballmt2, m8ballmj]
+phrases=[m8ballmt, m8ballmt2, m8ballmj, m8ballbk]
 
 import random
 sel=random.randint(0,len(phrases)-1)
